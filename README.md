@@ -2,7 +2,7 @@
 
 Esta api esta sendo desenvolvida com fins academicos para um desafio proposto pelo Bootcamp da Gama Academy, 
  
- ![] (https://github.com/Carloss-Jr/API-Rest-Sistema-Soft-School/blob/main/images/SS.png)
+<img src="(https://github.com/Carloss-Jr/API-Rest-Sistema-Soft-School/blob/main/images/SS.png)" width="400px" />
 ## Desafio : criar uma startup do zero
 
 ### Requisitos para rodar o Projeto :
