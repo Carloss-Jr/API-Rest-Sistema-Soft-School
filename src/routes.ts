@@ -1,16 +1,14 @@
 import { Router } from 'express'
+import { UserController } from "@controllers/UserController"
 
-import { CompanyController } from './controllers/CompanyController'
-import { EmployerController } from './controllers/EmployerController'
 
 
 const routes = Router()
 
-const companyController = new CompanyController
-
-routes.post('/cadastro', companyController.create)
-
-const employerController = new EmployerController
-routes.post('/cadastro-user', employerController.create)
+const userController = new UserController
+routes.post('/register', userController.create)
+routes.put('/update/:id', userController.update)
+routes.get('/session/:id', userController.signin)
+routes.delete('/removeuser/:id', userController.delete)
 
 export default routes

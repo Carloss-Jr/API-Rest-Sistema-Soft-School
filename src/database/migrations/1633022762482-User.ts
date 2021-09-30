@@ -1,11 +1,11 @@
-import { MigrationInterface, QueryRunner, Table, TableForeignKey } from "typeorm";
+import { MigrationInterface, QueryRunner, Table } from "typeorm";
 
-export class CreateCompany1632912331408 implements MigrationInterface {
+export class User1633022762482 implements MigrationInterface {
 
     async up(queryRunner: QueryRunner): Promise<void> {
         await queryRunner.createTable(
             new Table({
-                name: 'tab_companies',
+                name: 'tab_usuário',
                 columns: [
                     {
                         name: "id",
@@ -23,19 +23,18 @@ export class CreateCompany1632912331408 implements MigrationInterface {
                     {
                         name: "cnpj",
                         type: "varchar",
-                        length: "15",
-                        isNullable: false
+                        length: "15"
                     },
                     {
                         name: "email",
                         type: "varchar",
-                        length: "50",
-                        isNullable: false
+                        length: "30",
+                        isNullable: false, isUnique: true
                     },
                     {
                         name: "password_hash",
                         type: "varchar",
-                        length: "30", isNullable: false
+                        length: "20", isNullable: false
                     },
                     {
                         name: "company",
@@ -63,7 +62,8 @@ export class CreateCompany1632912331408 implements MigrationInterface {
 
 
     public async down(queryRunner: QueryRunner): Promise<void> {
-        queryRunner.dropTable('tab_companies')
+        await queryRunner.dropTable('tab_usuário')
     }
 
 }
+

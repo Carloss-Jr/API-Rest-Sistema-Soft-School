@@ -25,7 +25,7 @@
       "baseUrl": ".",
       "paths": {
          "@controllers/*": [
-            "./src/controllers/*"
+            "src/app/controllers/*"
          ]
       },
       "sourceMap": true
