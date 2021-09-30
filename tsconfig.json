@@ -1,0 +1,33 @@
+{
+   "compilerOptions": {
+      "target": "es2017",
+      "module": "commonjs",
+      "lib": [
+         "es5",
+         "es6"
+      ],
+      "allowJs": true,
+      "moduleResolution": "node",
+      "outDir": "./build",
+      "rootDir": "./src",
+      "typeRoots": [
+         "./node_modules/@types",
+         "./src/@types"
+      ],
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "skipLibCheck": true,
+      "strict": false,
+      "forceConsistentCasingInFileNames": true,
+      // Importar arquivos mais fácil
+      "baseUrl": ".",
+      "paths": {
+         "@controllers/*": [
+            "./src/controllers/*"
+         ]
+      },
+      "sourceMap": true
+   }
+}
