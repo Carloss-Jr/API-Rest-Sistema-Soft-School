@@ -20,5 +20,5 @@ Esta api esta sendo desenvolvida com fins academicos para um desafio proposto pe
   []  Por ultimo rode `npm start` para iniciar seu servidor local
 
   Obs: Teste as rotas propostas no arquivo routes.ts em  ClientServers como o Insomnia , Thunder Client ou Postman ...
-
+ 
 Carlos Jr
