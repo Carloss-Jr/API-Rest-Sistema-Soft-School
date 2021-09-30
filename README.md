@@ -1,6 +1,7 @@
 # API-Rest Sistema Soft School
 
 Esta api esta sendo desenvolvida com fins academicos para um desafio proposto pelo Bootcamp da Gama Academy, 
+ 
 
 ## Desafio : criar uma startup do zero
 
