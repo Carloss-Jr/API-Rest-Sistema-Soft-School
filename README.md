@@ -3,9 +3,10 @@
 Esta api esta sendo desenvolvida com fins academicos para um desafio proposto pelo Bootcamp da Gama Academy, 
 
 <div align="center">
-<img src="(https://github.com/Carloss-Jr/API-Rest-Sistema-Soft-School/blob/main/images/SS.png)" width="400px" />
-## Desafio : criar uma startup do zero
+<img src="https://user-images.githubusercontent.com/86996541/135532707-1c4846e2-1f30-4b35-8d74-f276867fbe42.png" width="700px" />
 </div>
+ 
+ ## Desafio : criar uma startup do zero
 
 ### Requisitos para rodar o Projeto :
  
